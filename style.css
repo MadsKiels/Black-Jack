@@ -1,0 +1,16 @@
+#chooser {
+	width: 150px;
+	height: 100px;
+	background-color: #e4e4e4;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+#chooser button {
+	border-radius: 5px;
+	border-style: solid;
+}
+
+.selected {
+	background-color: #9aea9a;
+}

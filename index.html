@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Black Jack</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<p><span>Points: </span><span id="points">0</span></p>
+		<p><span>Enemy Points: </span><span id="enemyPoints">0</span></p>
+		<button id="start" onclick="startFunc()">Start</button>
+		<button id="draw" onclick="drawFunc()">Draw</button>
+		<button id="end" onclick="endFunc()">End</button>
+		<p id="result"></p>
+		<script src="chooser.js"></script>
+
+		<div id="chooser">
+			<h4> Hvis udgave vil du spille? </h4>
+			<button id="mads" onclick="change('mads')"> Mads </button>
+			<button id="rasmus" onclick="change('rasmus')"> Rasmus </button>
+		</div>
+
+	</body>
+</html>
